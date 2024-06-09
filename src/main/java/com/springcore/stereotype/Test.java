@@ -10,6 +10,10 @@ public class Test {
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/springcore/stereotype/stereo_config.xml");
 		Student student = context.getBean("student", Student.class);
 		System.out.println(student);
+		
+		System.out.println("_________________________________________________");
+		System.out.println(student.getState());
+		System.out.println(student.getState().getClass().getName());
 	}
 
 }
