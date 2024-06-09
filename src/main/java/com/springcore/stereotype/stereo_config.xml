@@ -21,5 +21,7 @@
 		<value>UP</value>
 		<value>DH</value>
 	</util:list>
+	
+	<bean class="com.springcore.stereotype.Teacher" scope="prototype" name="t1" />
 
 </beans>
